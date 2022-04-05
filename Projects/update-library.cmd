@@ -1,0 +1,1 @@
+ dotnet publish ..\Regulus.Remote\Regulus.Remote.Client\ -o .\Astringent.Remote.UnityShowcase\Assets\Plugins\Lib -c Release

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	   
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\Astringent.Remote.UnitySources\Astringent.Remote.UnitySources.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\Regulus.Remote\Regulus.Remote.Tools.Protocol.Sources\Regulus.Remote.Tools.Protocol.Sources.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\Regulus.Remote\Regulus.Remote\Regulus.Remote.csproj" />
+    <ProjectReference Include="..\..\Regulus.Remote\Regulus.Serialization\Regulus.Serialization.csproj" />
+    
+  </ItemGroup>
+
+
+</Project>

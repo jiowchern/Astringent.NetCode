@@ -1,0 +1,1 @@
+ dotnet publish .\Astringent.Remote.UnitySources.TestProtocol\  -o .\Astringent.Remote.UnityShowcase\Assets\Plugins\Protocol
