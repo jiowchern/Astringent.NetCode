@@ -262,6 +262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9e1e3c777b7db42bb3bae33452418e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ErrorEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1080025668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,10 +277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79403dbacc3c7ba4a9a586299501a373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Channel: 
+  Channel: Demo
   Protocol: {fileID: 1080025666}
   Stream: {fileID: 1080025667}
-  Serializer: {fileID: 0}
 --- !u!4 &1080025669
 Transform:
   m_ObjectHideFlags: 0

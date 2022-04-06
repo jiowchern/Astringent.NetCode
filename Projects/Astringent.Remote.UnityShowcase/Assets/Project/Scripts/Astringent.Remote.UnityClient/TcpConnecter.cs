@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Threading.Tasks;
 namespace Astringent.Remote.UnityClient
 {
-    public class TcpConnecter : AgentStream
+    public class TcpConnecter : StreamProvider
     {
         public readonly Connecter Connecter;
        
