@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astringent.Projects.Samples.MovingCapsules.Protocol", "Astringent.Projects.Samples.MovingCapsules.Protocol\Astringent.Projects.Samples.MovingCapsules.Protocol.csproj", "{2678E77A-674F-470A-AE37-7C460AAFCA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astringent.NetCode.Sources", "Astringent.NetCode.Sources\Astringent.NetCode.Sources.csproj", "{5CE1051A-183B-4048-B6F6-9F5603396CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{022DDF49-CF9F-4AB1-98E0-65E05AB3309F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{EAEC8BD1-0BB0-41F4-9359-52C57B837279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{51E9C472-D4AA-41E9-AE8D-9DEDD7B34947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regulus.Remote.Tools.Protocol.Sources", "..\Regulus.Remote\Regulus.Remote.Tools.Protocol.Sources\Regulus.Remote.Tools.Protocol.Sources.csproj", "{C883C810-D4A9-4A84-8022-180FB6C4328B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regulus.Remote.Tools.Protocol", "..\Regulus.Remote\Regulus.Remote.Tools.Protocol\Regulus.Remote.Tools.Protocol.csproj", "{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2678E77A-674F-470A-AE37-7C460AAFCA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2678E77A-674F-470A-AE37-7C460AAFCA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2678E77A-674F-470A-AE37-7C460AAFCA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2678E77A-674F-470A-AE37-7C460AAFCA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE1051A-183B-4048-B6F6-9F5603396CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE1051A-183B-4048-B6F6-9F5603396CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE1051A-183B-4048-B6F6-9F5603396CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE1051A-183B-4048-B6F6-9F5603396CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C883C810-D4A9-4A84-8022-180FB6C4328B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C883C810-D4A9-4A84-8022-180FB6C4328B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C883C810-D4A9-4A84-8022-180FB6C4328B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C883C810-D4A9-4A84-8022-180FB6C4328B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2678E77A-674F-470A-AE37-7C460AAFCA14} = {022DDF49-CF9F-4AB1-98E0-65E05AB3309F}
+		{5CE1051A-183B-4048-B6F6-9F5603396CF1} = {022DDF49-CF9F-4AB1-98E0-65E05AB3309F}
+		{C883C810-D4A9-4A84-8022-180FB6C4328B} = {EAEC8BD1-0BB0-41F4-9359-52C57B837279}
+		{55F9DD4B-FDB5-4F32-AB68-0834D4E81D8F} = {EAEC8BD1-0BB0-41F4-9359-52C57B837279}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DCAEA1B-F949-437A-9923-E58A65883419}
+	EndGlobalSection
+EndGlobal
